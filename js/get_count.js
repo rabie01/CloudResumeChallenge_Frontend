@@ -1,4 +1,4 @@
-fetch('https://aegjbsexha.execute-api.us-east-1.amazonaws.com/default/VisitorCounter')
+fetch('https://0jy1zxbwx1.execute-api.us-east-1.amazonaws.com/default/get_visitor_count')
     .then(response => {
         if (response.ok) {
             // do something
@@ -6,5 +6,5 @@ fetch('https://aegjbsexha.execute-api.us-east-1.amazonaws.com/default/VisitorCou
         return response.json();
     })
   	.then(data => {
-    document.getElementById("VisitorCounter").textContent = data["visitorcount"];
+    document.getElementById("visitor_count").textContent = data["cnt"];
   })
