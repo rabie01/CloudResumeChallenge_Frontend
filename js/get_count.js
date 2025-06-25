@@ -6,5 +6,5 @@ fetch('https://0jy1zxbwx1.execute-api.us-east-1.amazonaws.com/default/get_visito
         return response.json();
     })
   	.then(data => {
-    document.getElementById("visitor_cnt").textContent = data["cnt"];
+    document.getElementById("visitorcount").textContent = data["cnt"];
   })
