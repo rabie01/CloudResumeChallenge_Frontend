@@ -1,4 +1,4 @@
-fetch('https://5gyqx5hisb.execute-api.us-east-1.amazonaws.com')
+fetch('https://ml5lhmia0c.execute-api.us-east-1.amazonaws.com')
     .then(response => {
         if (response.ok) {
             // do something
