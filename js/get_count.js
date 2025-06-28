@@ -1,4 +1,4 @@
-fetch('https://ml5lhmia0c.execute-api.us-east-1.amazonaws.com')
+fetch('https://api.myresume.rabietech.dpdns.org')
     .then(response => {
         if (response.ok) {
             // do something
