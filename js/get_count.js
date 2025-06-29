@@ -1,4 +1,5 @@
-fetch('https://api.myresume.rabietech.dpdns.org')
+const apiUrl = "__API_URL__";
+fetch(apiUrl)
     .then(response => {
         if (response.ok) {
             // do something
