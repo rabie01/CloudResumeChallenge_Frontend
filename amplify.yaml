@@ -4,6 +4,7 @@ frontend:
     build:
       commands:
         - echo "Static site, no build needed"
+        - sed -i 's|__API_URL__|'$API_URL'|g' js/get_count.js
   artifacts:
     baseDirectory: .
     files:
