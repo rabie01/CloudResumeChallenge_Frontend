@@ -292,6 +292,21 @@ h3 {
   width: 80%;
   text-align: center;
 }
+
+.resume-download {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3399ff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.resume-download:hover {
+  background-color: #267acc;
+}
+
 .separator {
   width: 240px;
   height: 2px;
