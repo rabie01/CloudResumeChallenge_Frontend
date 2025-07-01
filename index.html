@@ -1,44 +1,67 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    
 <head>
-<!-- FONTS -->
-<link href="./css/style.css" rel="stylesheet" type="text/css" >
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<title>Rabie's Resume</title>
-<script src="js/get_count.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Rabie's Resume</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src="js/get_count.js" defer></script>
+  <style>
+    .resume-download {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #3399ff;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    .resume-download:hover {
+      background-color: #267acc;
+    }
+  </style>
 </head>
-    <body>
-    <!-- PAGE STUFF -->
-    <div class="visitor-count"> Welcome, Visitor #<div id="VisitorCounter"></div> </div>
-<div class="rela-block page">
+
+<body>
+  <div class="visitor-count">Welcome, Visitor #<div id="VisitorCounter"></div></div>
+
+  <div class="rela-block page">
     <div class="rela-block top-bar">
-        <div class="caps name"><div class="abs-center">Rabie Rabie</div></div>
+      <div class="caps name"><div class="abs-center">Rabie Rabie</div></div>
     </div>
+
     <div class="side-bar">
-        <div class="mugshot">
-            <div class="logo">
-    <svg viewBox="0 0 100 100" class="rela-block logo-svg" xmlns="http://www.w3.org/2000/svg">
-        <!-- Cloud shape -->
-        <path d="M70 60c10 0 18-8 18-18s-8-18-18-18c-2 0-4 .4-6 1.1C60 16 50 10 40 10c-13 0-24 11-24 24 0 2 .3 4 .8 6C10 43 4 50 4 58c0 9 7 16 16 16h50z" fill="#cce6ff" stroke="#3399ff" stroke-width="2"/>
-        <!-- Gear inside the cloud -->
-        <circle cx="40" cy="55" r="8" stroke="#0066cc" stroke-width="2" fill="white"/>
-        <path d="M40 47v3M40 65v3M47 55h3M30 55h3M45 50l2-2M33 62l2-2M35 48l-2-2M47 62l-2-2" stroke="#0066cc" stroke-width="2"/>
-    </svg>
-    <p class="logo-text">RR</p>
-	</div>
+      <div class="mugshot">
+        <div class="logo">
+          <svg viewBox="0 0 100 100" class="rela-block logo-svg" xmlns="http://www.w3.org/2000/svg">
+            <!-- Cloud + Gear Icon -->
+            <path d="M70 60c10 0 18-8 18-18s-8-18-18-18c-2 0-4 .4-6 1.1C60 16 50 10 40 10c-13 0-24 11-24 24 0 2 .3 4 .8 6C10 43 4 50 4 58c0 9 7 16 16 16h50z" fill="#cce6ff" stroke="#3399ff" stroke-width="2"/>
+            <circle cx="40" cy="55" r="8" stroke="#0066cc" stroke-width="2" fill="white"/>
+            <path d="M40 47v3M40 65v3M47 55h3M30 55h3M45 50l2-2M33 62l2-2M35 48l-2-2M47 62l-2-2" stroke="#0066cc" stroke-width="2"/>
+          </svg>
+          <p class="logo-text">RR</p>
         </div>
-	<p><a href="Rabie_Rabie_Resume.pdf" download target="_blank">📄 Download My Resume (PDF)</a></p>
-        <br>
-        <a href="https://github.com/rabie01"><p class="rela-block social github">Github</p></a>
-        <a href="https://www.linkedin.com/in/rabiemohamed/"><p class="rela-block social linked-in">LinkedIn</p></a>
-	    
-        <p class="rela-block caps side-header">WHOAMI</p>
-        <p class="rela-block list-thing-whoami">Skilled Cloud Software and infrastructure Engineer with an MS in Computer Science and expertise in software development and automation, platform/network performance analysis, and infrastructure management. Hands-on experience across the cloud ecosystem, including integrated infrastructure management tools, virtualization/containerization technologies, operating systems and centralized management and monitoring as well as networking, storage, and backup solutions. </p>
-        <p class="rela-block caps side-header">Education</p>
+      </div>
+
+      <!-- Resume Download -->
+      <p><a href="Rabie_Rabie_Resume.pdf" download target="_blank" class="resume-download">📄 Download My Resume (PDF)</a></p>
+
+      <!-- Social Links -->
+      <br>
+      <a href="https://github.com/rabie01" target="_blank">
+        <p class="rela-block social github">GitHub</p>
+      </a>
+      <a href="https://www.linkedin.com/in/rabiemohamed/" target="_blank">
+        <p class="rela-block social linked-in">LinkedIn</p>
+      </a>
+
+      <!-- Sidebar Info -->
+      <p class="rela-block caps side-header">WHOAMI</p>
+      <p class="rela-block list-thing-whoami">Skilled Cloud Software and Infrastructure Engineer with an MS in Computer Science and expertise in software development and automation, platform/network performance analysis, and infrastructure management. Hands-on experience across the cloud ecosystem...</p>
+      <p class="rela-block caps side-header">Education</p>
         <p class="rela-block list-thing-bold"> <strong>University of Memphis</strong>
         <p class="rela-block list-thing-italics"><i>Master of Computer Science</i></p> <br>
 	<p class="rela-block list-thing-bold"> <strong>Information Technology Institute (ITI)</strong>
