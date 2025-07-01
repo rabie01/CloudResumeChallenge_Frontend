@@ -151,6 +151,12 @@ h3 {
   background-color: #f7e0c1;
   padding: 320px 30px 50px;
 }
+.list-thing-project {
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
 .mugshot {
   display: false;
   position: absolute;
